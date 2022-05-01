@@ -1,0 +1,25 @@
+{
+    "contact":{
+        "firstName" : "Terry",
+        "lastName" : "Abacus",
+        "email" : "Terry@emailplace",
+        "favoriteColor" : "blue",
+        "birthday" : " 5/6/7"
+    },
+    "contact2":{
+        "firstName" : "Larry",
+        "lastName" : "Bart",
+        "email" : "Larry@emailplace",
+        "favoriteColor" : "Purple",
+        "birthday" : " 1/2/3"
+    },
+        "contact3":{
+            "firstName" : "Moe",
+            "lastName" : "Snow",
+            "email" : "Terry@emailplace",
+            "favoriteColor" : "Red",
+            "birthday" : "7/8/9"
+        }
+    }
+
+
