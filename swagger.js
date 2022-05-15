@@ -1,3 +1,5 @@
+const { Linter } = require('eslint');
+
 const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
@@ -5,15 +7,13 @@ const doc = {
     title: 'My API',
     description: 'Description',
   },
-  host: 'localhost:3000',
+  host: 'localhost:8080',
   schemes: ['http'],
 };
 
 const outputFile = './swagger.json';
 const endpointsFiles = ['./index.js'];
 
-/* NOTE: if you use the express Router, you must pass in the 
-   'endpointsFiles' only the root file where the route starts,
-   such as index.js, app.js, routes.js, ... */
+
 
 swaggerAutogen(outputFile, endpointsFiles, doc);
