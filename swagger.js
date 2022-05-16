@@ -7,7 +7,7 @@ const doc = {
     title: 'My API',
     description: 'Description',
   },
-  host: 'localhost:8080',
+  host: 'https://cs341week2.herokuapp.com/git remote',
   schemes: ['http'],
 };
 
